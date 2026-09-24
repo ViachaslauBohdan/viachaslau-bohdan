@@ -12,10 +12,11 @@ You work with me directly. Scope is written down, progress is visible every week
 
 **A fit when you need**
 
-- A senior software developer to own an MVP or a web platform from scope through launch
-- Senior capacity inside an existing team, without a hiring cycle
-- Someone to finish, stabilize, or replace a stalled or generated prototype
-- AI or automation on top of systems you already use
+- Frontend engineering in React, Next.js, Angular, or Vue
+- Full-stack delivery with Node.js, NestJS, AWS, and Docker
+- Agentic AI: RAG, vector search, and LLM workflows
+- Micro-frontend architecture for a platform that has outgrown one app
+- Automation of reporting, compliance, and manual operational work
 
 **Not a fit when you need** a large team immediately, or a fixed price on a product that has not been scoped.
 

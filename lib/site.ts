@@ -57,20 +57,24 @@ export const forCtos = [
 
 export const services = [
   {
-    name: "Product development",
-    text: "MVPs, SaaS platforms, booking systems, admin panels, and customer portals. Scoped to the version that can launch.",
+    name: "Frontend engineering",
+    text: "Production React, Next.js, Angular, and Vue applications. Architecture, design systems, and interfaces a team can keep shipping.",
   },
   {
-    name: "Embedded engineering",
-    text: "Senior help inside an existing team: a feature line, a rescue, or a quarter of capacity while you hire.",
+    name: "Full-stack delivery",
+    text: "Web products from scope through launch: TypeScript on the frontend, Node.js and NestJS on the backend, AWS and Docker in production.",
   },
   {
-    name: "Product rescue",
-    text: "Bugs blocking launch, a missing backend, auth and payments, or a prototype from Cursor, Lovable, or Bolt that now has to become software.",
+    name: "Agentic AI",
+    text: "RAG pipelines, vector search, and LLM integrations (OpenAI, Claude) that take real work off a team — reporting, knowledge, and multi-step workflows.",
   },
   {
-    name: "AI and automation",
-    text: "RAG over internal documents, automated reports, CRM and API integrations, and the manual spreadsheet work in between.",
+    name: "Micro-frontend architecture",
+    text: "Independent deploy cycles for large platforms: Module Federation, Single-SPA, private packages, and a shared design system.",
+  },
+  {
+    name: "Operational automation",
+    text: "Compliance dashboards, automated reports, and the manual handoffs between systems that a company still does by hand.",
   },
 ] as const
 
