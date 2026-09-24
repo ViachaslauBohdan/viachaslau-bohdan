@@ -43,7 +43,7 @@ export function HomePage() {
               </Button>
             </Stack>
             <Typography sx={{ mt: 3 }} color="text.secondary">
-              Based in {site.location}. Working remotely.
+              Based in {site.location}.
             </Typography>
           </Grid>
           <Grid size={{ xs: 12, md: 5 }}>

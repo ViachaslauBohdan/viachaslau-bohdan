@@ -19,7 +19,7 @@ You work with me directly. Scope is written down, progress is visible every week
 
 **Not a fit when you need** a large team immediately, or a fixed price on a product that has not been scoped.
 
-Based in Zgorzała, Poland. Working remotely.
+Based in Warsaw, Poland.
 
 - Email: slawandr1@gmail.com
 - Call: https://calendly.com/slawandr1/30min

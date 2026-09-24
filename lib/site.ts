@@ -3,7 +3,7 @@ export const site = {
   shortName: "Viachaslau",
   headline: "Viachaslau Software Developer",
   role: "Senior software developer",
-  location: "Zgorzała, Poland",
+  location: "Warsaw, Poland",
   email: "slawandr1@gmail.com",
   calendly: "https://calendly.com/slawandr1/30min",
   company: {
