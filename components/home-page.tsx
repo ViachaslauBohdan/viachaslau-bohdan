@@ -72,7 +72,7 @@ export function HomePage() {
             <Grid size={{ xs: 12, md: 5 }}>
               <Typography variant="h2">What I do</Typography>
               <Typography color="text.secondary" sx={{ mt: 2 }}>
-                8+ years of commercial engineering across SaaS, fintech, IoT, travel, and enterprise
+                10 years of commercial engineering across SaaS, fintech, IoT, travel, and enterprise
                 products. I take a piece of software from an idea or a broken prototype through to
                 something people can use.
               </Typography>
