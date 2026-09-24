@@ -24,7 +24,7 @@ export function HomePage() {
               {site.role}
             </Typography>
             <Typography variant="h1" sx={{ mt: 2, fontSize: { xs: "3rem", sm: "4.25rem" }, maxWidth: 720 }}>
-              {site.name}
+              {site.headline}
             </Typography>
             <Typography variant="h6" color="text.secondary" sx={{ mt: 3, maxWidth: 680, fontWeight: 400 }}>
               I build production software for founders and companies that need a senior software

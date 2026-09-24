@@ -1,6 +1,7 @@
 export const site = {
   name: "Viachaslau Bohdan",
   shortName: "Viachaslau",
+  headline: "Viachaslau Software Developer",
   role: "Senior software developer",
   location: "Zgorzała, Poland",
   email: "slawandr1@gmail.com",
