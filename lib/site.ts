@@ -69,10 +69,6 @@ export const services = [
     text: "RAG pipelines, vector search, and LLM integrations (OpenAI, Claude) that take real work off a team — reporting, knowledge, and multi-step workflows.",
   },
   {
-    name: "Micro-frontend architecture",
-    text: "Independent deploy cycles for large platforms: Module Federation, Single-SPA, private packages, and a shared design system.",
-  },
-  {
     name: "Operational automation",
     text: "Compliance dashboards, automated reports, and the manual handoffs between systems that a company still does by hand.",
   },

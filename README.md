@@ -15,7 +15,6 @@ You work with me directly. Scope is written down, progress is visible every week
 - Frontend engineering in React, Next.js, Angular, or Vue
 - Full-stack delivery with Node.js, NestJS, AWS, and Docker
 - Agentic AI: RAG, vector search, and LLM workflows
-- Micro-frontend architecture for a platform that has outgrown one app
 - Automation of reporting, compliance, and manual operational work
 
 **Not a fit when you need** a large team immediately, or a fixed price on a product that has not been scoped.
