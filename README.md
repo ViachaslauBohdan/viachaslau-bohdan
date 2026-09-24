@@ -1,6 +1,6 @@
 # Viachaslau Bohdan
 
-Personal site for Viachaslau Bohdan, software developer. Slavaro Software remains the company site.
+Personal site for Viachaslau Bohdan, senior engineer for founders and CTOs. Slavaro Software remains the company site.
 
 ## Develop
 
