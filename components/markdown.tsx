@@ -31,7 +31,7 @@ export const markdownComponents: Components = {
     </Typography>
   ),
   img: ({ src, alt }) => {
-    if (!src?.startsWith("/")) return null
+    if (typeof src !== "string" || !src.startsWith("/")) return null
     return (
       <Box
         component="img"
