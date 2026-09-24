@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test"
 
 test("homepage introduces Viachaslau and links to the company site", async ({ page }) => {
   await page.goto("/")
-  await expect(page.getByRole("heading", { level: 1, name: "Vyacheslav's" })).toBeVisible()
+  await expect(page.getByRole("heading", { level: 1, name: "Viachaslau Bohdan" })).toBeVisible()
   await expect(page.getByText("Senior software developer").first()).toBeVisible()
   await expect(page.getByRole("img", { name: "Viachaslau Bohdan" })).toBeVisible()
   await expect(page.getByRole("link", { name: "Book a call" }).first()).toHaveAttribute("href", /^https:\/\//)
