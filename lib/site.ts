@@ -1,6 +1,7 @@
 export const site = {
   name: "Viachaslau Bohdan",
-  shortName: "Viachaslau",
+  brand: "Vyacheslav's",
+  shortName: "Vyacheslav's",
   role: "Senior software developer",
   location: "Zgorzała, Poland",
   email: "slawandr1@gmail.com",
@@ -10,7 +11,7 @@ export const site = {
     url: "https://slavaro-landing.vercel.app",
   },
   description:
-    "Viachaslau Bohdan is a senior software developer who designs, builds, and ships production web products for founders, CTOs, and companies. MVPs, product rescue, and hands-on delivery. Company work runs through Slavaro Software.",
+    "Vyacheslav's is the site of Viachaslau Bohdan, a senior software developer who designs, builds, and ships production web products for founders, CTOs, and companies. Company work runs through Slavaro Software.",
 } as const
 
 export const nav = [

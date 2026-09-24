@@ -20,13 +20,13 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   metadataBase: new URL("https://viachaslau-bohdan.vercel.app"),
   title: {
-    default: `${site.name} — ${site.role}`,
-    template: `%s — ${site.name}`,
+    default: `${site.brand} — ${site.role}`,
+    template: `%s — ${site.brand}`,
   },
   description: site.description,
   authors: [{ name: site.name }],
   openGraph: {
-    title: `${site.name} — ${site.role}`,
+    title: `${site.brand} — ${site.role}`,
     description: site.description,
     type: "website",
   },

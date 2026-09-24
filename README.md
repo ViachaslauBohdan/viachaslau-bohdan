@@ -1,6 +1,6 @@
-# Viachaslau Bohdan
+# Vyacheslav's
 
-Senior software developer for founders, CTOs, and companies that need a senior person on the product — not another layer between the problem and the code.
+Senior software developer for founders, CTOs, and companies that need a senior person on the product — not another layer between the problem and the code. The person behind the site is Viachaslau Bohdan.
 
 **Live site:** [viachaslau-bohdan.vercel.app](https://viachaslau-bohdan.vercel.app)
 
