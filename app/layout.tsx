@@ -18,7 +18,7 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://viachaslau.vercel.app"),
+  metadataBase: new URL("https://viachaslau-bohdan.vercel.app"),
   title: {
     default: `${site.name} — ${site.role}`,
     template: `%s — ${site.name}`,

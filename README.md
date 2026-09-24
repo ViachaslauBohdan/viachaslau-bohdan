@@ -1,6 +1,28 @@
 # Viachaslau Bohdan
 
-Personal site for Viachaslau Bohdan, senior engineer for founders and CTOs. Slavaro Software remains the company site.
+Software engineer for founders, CTOs, and companies that need a senior person on the product — not another layer between the problem and the code.
+
+**Live site:** [viachaslau-bohdan.vercel.app](https://viachaslau-bohdan.vercel.app)
+
+## For potential clients
+
+I design, build, and ship production web software: SaaS, customer portals, internal tools, and MVPs. I also take over half-finished products and AI prototypes and get them stable enough for real users.
+
+You work with me directly. Scope is written down, progress is visible every week, and the handover is something your team can keep. Company engagements run through [Slavaro Software](https://slavaro-landing.vercel.app).
+
+**A fit when you need**
+
+- A software engineer to own an MVP or a web platform from scope through launch
+- Senior capacity inside an existing team, without a hiring cycle
+- Someone to finish, stabilize, or replace a stalled or generated prototype
+- AI or automation on top of systems you already use
+
+**Not a fit when you need** a large team immediately, or a fixed price on a product that has not been scoped.
+
+Based in Zgorzała, Poland. Working remotely.
+
+- Email: slawandr1@gmail.com
+- Call: https://calendly.com/slawandr1/30min
 
 ## Develop
 
