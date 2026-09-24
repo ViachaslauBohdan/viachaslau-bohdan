@@ -38,9 +38,9 @@ export function SiteHeader() {
             href="/"
             variant="h6"
             color="text.primary"
-            sx={{ textDecoration: "none", flexGrow: 1, fontFamily: "var(--font-fraunces), serif" }}
+            sx={{ textDecoration: "none", flexGrow: 1, fontFamily: "var(--font-fraunces), serif", fontSize: { xs: "1rem", sm: "1.15rem" } }}
           >
-            {site.shortName}
+            {site.headline}
           </Typography>
           <Stack direction="row" spacing={0.5} sx={{ display: { xs: "none", md: "flex" } }}>
             {links}
