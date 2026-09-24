@@ -12,13 +12,15 @@ test("homepage introduces Viachaslau and links to the company site", async ({ pa
 
 test("blog index lists published notes and hides the draft", async ({ page }) => {
   await page.goto("/blog")
-  await expect(page.getByRole("heading", { name: "How I scope an MVP" })).toBeVisible()
+  await expect(page.getByRole("heading", { name: "Winter in Poland for a Software Developer — How to Simulate a Sunny Climate" })).toBeVisible()
+  await expect(page.getByRole("heading", { name: "How I scope an MVP" })).toHaveCount(0)
   await expect(page.getByText("Draft — notes template")).toHaveCount(0)
 })
 
 test("a published note shows its title and author", async ({ page }) => {
-  await page.goto("/blog/how-i-scope-an-mvp")
-  await expect(page.getByRole("heading", { level: 1, name: "How I scope an MVP" })).toBeVisible()
-  await expect(page.getByText("9 September 2026 · Viachaslau Bohdan")).toBeVisible()
+  await page.goto("/blog/winter-in-poland-for-a-software-developer")
+  await expect(page.getByRole("heading", { level: 1, name: "Winter in Poland for a Software Developer — How to Simulate a Sunny Climate" })).toBeVisible()
+  await expect(page.getByRole("img", { name: "Viachaslau in a rainy Warsaw winter and in warm sunlight" })).toBeVisible()
+  await expect(page.getByText("24 September 2026 · Viachaslau Bohdan")).toBeVisible()
   await expect(page.getByRole("link", { name: "All notes" })).toHaveAttribute("href", "/blog")
 })

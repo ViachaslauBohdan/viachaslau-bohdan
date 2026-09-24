@@ -2,6 +2,7 @@
 title: How I scope an MVP
 description: A short way to cut a product idea down to the version that can actually launch.
 date: 2026-09-09
+draft: true
 ---
 
 An MVP is the smallest version that lets a real user finish the job you are betting on. Everything else is a later release, even if it feels essential in the first conversation.

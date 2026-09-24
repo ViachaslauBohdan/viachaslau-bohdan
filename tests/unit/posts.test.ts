@@ -4,11 +4,7 @@ import { formatPostDate, getPostBySlug, getPosts } from "@/lib/posts"
 describe("blog posts", () => {
   it("lists published posts newest first and hides drafts", () => {
     const posts = getPosts()
-    expect(posts.map((post) => post.slug)).toEqual([
-      "how-i-scope-an-mvp",
-      "when-a-prototype-is-not-a-product",
-      "what-a-cto-should-expect",
-    ])
+    expect(posts.map((post) => post.slug)).toEqual(["winter-in-poland-for-a-software-developer"])
     expect(posts.every((post) => post.draft === false)).toBe(true)
     for (const post of posts) {
       expect(post.title.length).toBeGreaterThan(0)
@@ -18,9 +14,9 @@ describe("blog posts", () => {
   })
 
   it("reads a post body from markdown", () => {
-    const post = getPostBySlug("what-a-cto-should-expect")
-    expect(post?.title).toBe("What a CTO should expect from me")
-    expect(post?.content).toContain("You should know who is writing the code")
+    const post = getPostBySlug("winter-in-poland-for-a-software-developer")
+    expect(post?.title).toBe("Winter in Poland for a Software Developer — How to Simulate a Sunny Climate")
+    expect(post?.content).toContain("You can't change the Polish winter.")
   })
 
   it("formats dates without shifting the calendar day", () => {

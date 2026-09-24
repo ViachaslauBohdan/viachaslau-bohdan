@@ -2,6 +2,7 @@
 title: When a prototype is not a product
 description: AI-built and half-finished prototypes fail in the same places. Here is how I decide what to keep and what to replace.
 date: 2026-08-26
+draft: true
 ---
 
 A prototype proves that a flow can exist. A product proves that strangers can use it on a Tuesday without you in the room.

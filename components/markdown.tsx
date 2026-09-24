@@ -1,3 +1,4 @@
+import Box from "@mui/material/Box"
 import Link from "@mui/material/Link"
 import Typography from "@mui/material/Typography"
 import type { Components } from "react-markdown"
@@ -29,6 +30,17 @@ export const markdownComponents: Components = {
       {children}
     </Typography>
   ),
+  img: ({ src, alt }) => {
+    if (!src?.startsWith("/")) return null
+    return (
+      <Box
+        component="img"
+        src={src}
+        alt={alt ?? ""}
+        sx={{ display: "block", width: "100%", mt: 3, borderRadius: 2 }}
+      />
+    )
+  },
   a: ({ href, children }) => {
     const safe = href?.startsWith("/") ? href : safeHttpsUrl(href)
     if (!safe) return <span>{children}</span>

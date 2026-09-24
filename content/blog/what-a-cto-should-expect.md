@@ -2,6 +2,7 @@
 title: What a CTO should expect from me
 description: The working agreement I use when I join a company as a senior developer — scope, access, and what “done” means.
 date: 2026-08-12
+draft: true
 ---
 
 You should know who is writing the code, what they will not build, and when you will see it running.
