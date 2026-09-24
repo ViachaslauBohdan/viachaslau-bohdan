@@ -1,6 +1,6 @@
 # Viachaslau Bohdan
 
-Software engineer for founders, CTOs, and companies that need a senior person on the product — not another layer between the problem and the code.
+Senior software developer for founders, CTOs, and companies that need a senior person on the product — not another layer between the problem and the code.
 
 **Live site:** [viachaslau-bohdan.vercel.app](https://viachaslau-bohdan.vercel.app)
 
@@ -12,7 +12,7 @@ You work with me directly. Scope is written down, progress is visible every week
 
 **A fit when you need**
 
-- A software engineer to own an MVP or a web platform from scope through launch
+- A senior software developer to own an MVP or a web platform from scope through launch
 - Senior capacity inside an existing team, without a hiring cycle
 - Someone to finish, stabilize, or replace a stalled or generated prototype
 - AI or automation on top of systems you already use

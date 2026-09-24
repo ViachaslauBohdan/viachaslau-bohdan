@@ -27,8 +27,9 @@ export function HomePage() {
               {site.name}
             </Typography>
             <Typography variant="h6" color="text.secondary" sx={{ mt: 3, maxWidth: 680, fontWeight: 400 }}>
-              I build production software for founders and companies that need a senior developer on
-              the work — not another layer between the problem and the code. Company engagements run
+              I build production software for founders and companies that need a senior software
+              developer on the work — not another layer between the problem and the code. Company
+              engagements run
               through {site.company.name}.
             </Typography>
             <Stack direction="row" spacing={1.5} sx={{ mt: 4, flexWrap: "wrap" }}>
