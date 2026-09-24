@@ -1,0 +1,13 @@
+---
+description: UI rules for the personal site
+globs: "{app,components}/**/*.tsx"
+alwaysApply: false
+---
+
+# Site UI
+
+- Keep route files thin. Page sections live in components.
+- Use a client component only for state, events, or a browser-only library.
+- Buttons and links need accessible names.
+- Use MUI for layout, type, cards, chips, and buttons.
+- External links render only after `safeHttpsUrl` accepts them.

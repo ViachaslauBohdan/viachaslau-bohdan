@@ -1,0 +1,14 @@
+---
+description: What this personal site is allowed to claim
+alwaysApply: true
+---
+
+# Viachaslau Bohdan
+
+This is the personal site of Viachaslau Bohdan, a software developer. Slavaro Software stays the company site.
+
+- State only work, employers, and services recorded in site content. Do not invent metrics, client outcomes, or ratings.
+- A blog post is published only with a title, description, and date. Drafts stay unpublished.
+- External links render only after `safeHttpsUrl` accepts them.
+- MUI is the only UI system. Do not add another component library.
+- Do not add accounts, comments, or reviews unless the product asks for them.

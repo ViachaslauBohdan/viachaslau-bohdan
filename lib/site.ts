@@ -1,0 +1,96 @@
+export const site = {
+  name: "Viachaslau Bohdan",
+  shortName: "Viachaslau",
+  role: "Software developer",
+  location: "Zgorzała, Poland",
+  email: "slawandr1@gmail.com",
+  calendly: "https://calendly.com/slawandr1/30min",
+  company: {
+    name: "Slavaro Software",
+    url: "https://slavaro-landing.vercel.app",
+  },
+  description:
+    "Personal site of Viachaslau Bohdan, a software developer who builds production web products for founders and CTOs — and publishes notes on how that work actually gets done.",
+} as const
+
+export const nav = [
+  { name: "Work", href: "/#work" },
+  { name: "For CTOs", href: "/#ctos" },
+  { name: "Services", href: "/#services" },
+  { name: "Blog", href: "/blog" },
+  { name: "Contact", href: "/#contact" },
+] as const
+
+export const work = [
+  {
+    title: "Ship the product",
+    text: "Web applications, SaaS, customer portals, and internal tools — from a tight scope through architecture, build, and production launch.",
+  },
+  {
+    title: "Finish what stalled",
+    text: "Half-built MVPs, AI prototypes, and codebases that lost their developer. I get them stable enough for real users.",
+  },
+  {
+    title: "Put AI where it saves work",
+    text: "Document assistants, reporting, and workflow automation on top of systems a company already uses — not a demo that never leaves the notebook.",
+  },
+] as const
+
+export const forCtos = [
+  {
+    title: "Senior capacity without a hiring cycle",
+    text: "When the roadmap is larger than the team, I join as the engineer who owns a slice of delivery — scope, build, and handover.",
+  },
+  {
+    title: "Decisions you can defend",
+    text: "Architecture and trade-offs explained in the language of risk, cost, and what can wait. You stay in control of the product.",
+  },
+  {
+    title: "Code your team can keep",
+    text: "TypeScript, React, Node, PostgreSQL, AWS. Documented enough that your engineers are not stuck with a black box after I leave.",
+  },
+  {
+    title: "Direct contact",
+    text: "You talk to the person writing the software. No account manager, no junior passed off as a senior.",
+  },
+] as const
+
+export const services = [
+  {
+    name: "Product development",
+    text: "MVPs, SaaS platforms, booking systems, admin panels, and customer portals. Scoped to the version that can launch.",
+  },
+  {
+    name: "Embedded engineering",
+    text: "Senior help inside an existing team: a feature line, a rescue, or a quarter of capacity while you hire.",
+  },
+  {
+    name: "Product rescue",
+    text: "Bugs blocking launch, a missing backend, auth and payments, or a prototype from Cursor, Lovable, or Bolt that now has to become software.",
+  },
+  {
+    name: "AI and automation",
+    text: "RAG over internal documents, automated reports, CRM and API integrations, and the manual spreadsheet work in between.",
+  },
+] as const
+
+export const experience = [
+  { company: "Klarna", detail: "Compliance platform and AI reporting automation" },
+  { company: "SEKAI", detail: "Digital twin platforms and 3D web applications" },
+  { company: "Haptiq", detail: "Enterprise AI and micro-frontend architecture" },
+  { company: "Tenerifly", detail: "MVP built end to end from zero" },
+] as const
+
+export const stack = [
+  "React",
+  "Vue",
+  "Angular",
+  "TypeScript",
+  "Node.js",
+  "NestJS",
+  "PostgreSQL",
+  "AWS",
+  "Docker",
+  "LLM APIs",
+  "RAG",
+] as const

@@ -1,0 +1,14 @@
+---
+description: Rules for published site and blog records
+globs: "{content/blog,lib}/**/*.{ts,tsx,md}"
+alwaysApply: false
+---
+
+# Published records
+
+Every published post has a unique slug, a title, a description, and a `YYYY-MM-DD` date.
+
+- `draft: true` stays out of the index, the sitemap, and static paths.
+- Do not add a post to make the blog look fuller.
+- Experience and services stay as recorded. Do not embellish them.
+- External URLs in site content are `https` links with no embedded credentials.

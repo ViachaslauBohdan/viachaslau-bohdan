@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.vercel
+*.tsbuildinfo
+.DS_Store
+test-results
+playwright-report
+blob-report

@@ -1,0 +1,19 @@
+---
+description: Tests that protect published posts and external links
+globs: tests/**/*.{ts,tsx}
+alwaysApply: false
+---
+
+# Tests
+
+The suite fails if a published post is missing a title, description, or date, or if a draft is listed.
+
+Cover:
+
+- published posts newest first
+- drafts hidden
+- https-only external links
+
+Playwright covers the homepage, the blog index, and one post on desktop and mobile.
+
+Test behavior. Do not assert CSS classes or generated ids. Do not weaken a published-post test to make it pass.
